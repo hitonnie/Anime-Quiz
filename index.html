@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Anime Quiz Challenge</title>
+</head>
+<body>
+    <main class="quiz-app">
+        <header class="quiz-header">
+            <h1 class="title"> Anime Quiz Challenge </h1>
+        </header>
+
+        <section class="quiz-body" id="quiz">
+            <div class="question-box">
+                <h2 id="question">Question will appear here</h2>
+            </div>
+            <ul class="answer-list">
+                <li>
+                    <input type="radio" name="answer" id="a" class="answer" />
+                    <label for="a" id="a_text">Answer A</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="b" class="answer" />
+                    <label for="b" id="b_text">Answer B</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="c" class="answer" />
+                    <label for="c" id="c_text">Answer C</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="d" class="answer" />
+                    <label for="d" id="d_text">Answer D</label>
+                </li>
+            </ul>
+            <button id="submit">Submit</button>
+        </section>
+
+        <footer class="quiz-footer">
+        <div class="progress" id="progress" style="text-align: center;">Question 1 of 15</div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
